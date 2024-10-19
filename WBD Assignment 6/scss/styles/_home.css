@@ -1,0 +1,151 @@
+.flex-container .flex-item, .grid-container .item, .accordion .card .card-body, .accordion .card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.flex-container .flex-item:hover, .grid-container .item:hover, .accordion .card .card-body:hover, .accordion .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #A3C4E0, #E1D3F2);
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #003366;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background: #004d99;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-brand {
+  color: #DAA520;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+  color: #e4b849;
+}
+
+.alert {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  background: #DAA520;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.accordion .card {
+  border: 1px solid #009688;
+}
+.accordion .card-header {
+  background-color: #e7f1ff;
+  color: #007bff;
+}
+.accordion .card .btn-link {
+  color: #007bff;
+  text-decoration: none;
+}
+.accordion .card .btn-link:hover {
+  color: #0062cc;
+}
+.accordion .card .collapse.show {
+  background-color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.grid-container .item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.grid-container .item h5 {
+  margin: 10px 0;
+}
+.grid-container .item p {
+  margin: 10px 0;
+}
+.grid-container .item button {
+  background: #003366;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.grid-container .item button:hover {
+  background: #001a33;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.flex-container .flex-item button {
+  background: #003366;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.flex-container .flex-item button:hover {
+  background: #001a33;
+}
+
+.floorplans {
+  padding: 20px;
+}
+.floorplans .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+footer {
+  background: #003366;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background-color: #003366;
+  color: #ffffff;
+}
+.modal-header .close {
+  color: #ffffff;
+}
+
+.modal-body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.modal-footer {
+  background-color: #F9F9F9;
+}/*# sourceMappingURL=home.css.map */

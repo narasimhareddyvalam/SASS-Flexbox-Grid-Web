@@ -1,0 +1,32 @@
+
+@import '../features/placeholders'; 
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+    .item {
+        @extend %card-styles; 
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        h5 {
+            margin: 10px 0;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        button {
+            @include button-styles($primary-color); 
+        }
+    }
+}

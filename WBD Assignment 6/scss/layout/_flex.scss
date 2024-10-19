@@ -1,0 +1,19 @@
+
+
+@import '../features/placeholders';
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+    .flex-item {
+        @extend %card-styles; 
+
+        button {
+            @include button-styles($primary-color); 
+        }
+    }
+}

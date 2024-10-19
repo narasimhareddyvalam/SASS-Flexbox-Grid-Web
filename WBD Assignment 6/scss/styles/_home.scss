@@ -1,0 +1,101 @@
+// _home.scss
+
+@import '../features/variables';      
+@import '../features/mixins';         
+@import '../features/placeholders';  
+@import '../components/header'; 
+@import '../components/footer'; 
+@import '../layout/grid';   
+@import '../layout/flex';    
+@import '../components/features'; 
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: $background-gradient; 
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}
+
+
+.accordion {
+    .card {
+        @extend %card-styles; 
+        border: 1px solid $accent-color; 
+
+        &-header {
+            background-color: $accordion-bg-color; 
+            color: $accordion-text-color; 
+        }
+
+        .btn-link {
+            color: $accordion-text-color; 
+            text-decoration: none; 
+
+            &:hover {
+                color: darken($accordion-text-color, 10%); 
+            }
+        }
+
+        .collapse.show {
+            background-color: lighten($accordion-bg-color, 10%); 
+        }
+
+        .card-body {
+            @extend %card-styles; 
+        }
+    }
+}
+
+
+.floorplans {
+    padding: 20px;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px + 5px; 
+    }
+}
+
+
+.btn-card {
+    background-color: $primary-color; 
+    color: $white;
+    padding: 10px;
+
+    &:hover {
+        background-color: darken($primary-color, 10%); 
+    }
+}
+
+
+$size: "large";
+.button-#{$size} {  
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: $primary-color;
+    color: $white;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+
+.modal-header {
+    background-color: $primary-color; 
+    color: $white;
+    padding: 10px * 1.5; 
+}
+
+.modal-body {
+    background-color: $white;
+    color: $text-color;
+    padding: 10px + 5px; 
+}
+
+.modal-footer {
+    background-color: $background-color; 
+}

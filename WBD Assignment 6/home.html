@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNR Constructions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="scss/main.css"> 
+</head>
+<body>
+
+<header>
+    <h1>VNR Constructions</h1>
+    <p>Innovating Skylines, Elevating Lives</p>
+</header>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">VNR Constructions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Overview</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="alert alert-info text-center" role="alert">
+    Welcome to VNR Constructions! Your trusted partner in building excellence and sustainability.
+</div>
+
+
+<section id="about-us" class="py-5">
+    <div class="container">
+        <h2 class="text-center">About Us</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Our Mission
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        At VNR Constructions, our mission is to deliver exceptional construction services that meet the highest standards of quality, safety, and sustainability.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Our Values
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        We are committed to building lasting relationships with our clients through transparency, integrity, and excellence in all our endeavors.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Our Services
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        We offer a wide range of construction services including residential, commercial, and industrial projects tailored to meet your specific needs.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Our Projects</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="images/img1.jpeg" alt="Project 1" class="img-fluid">
+                <h5>Residential Complex</h5>
+                <p>A state-of-the-art residential complex designed for modern living with sustainability at its core.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#project1Modal">More Information</button>
+            </div>
+            <div class="grid-item">
+                <img src="images/img2.jpeg" alt="Project 2" class="img-fluid">
+                <h5>Office Building</h5>
+                <p>An innovative office building that fosters collaboration and creativity among its inhabitants.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#project2Modal">More Information</button>
+            </div>
+            <div class="grid-item">
+                <img src="images/shoppingmall.jpeg" alt="Project 3" class="img-fluid">
+                <h5>Shopping Mall</h5>
+                <p>A vibrant shopping mall offering a unique shopping experience, blending modern design with community spaces.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#project3Modal">More Information</button>
+            </div>
+            <div class="grid-item">
+                <img src="images/hospital.jpeg" alt="Project 4" class="img-fluid">
+                <h5>Hospital Facility</h5>
+                <p>A fully equipped hospital facility providing state-of-the-art healthcare services in a comforting environment.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#project4Modal">More Information</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="services" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Our Services</h2>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="images/Constructing.jpeg" alt="Service 1" class="img-fluid">
+                <h5>Residential Construction</h5>
+                <p>We specialize in building high-quality residential properties that cater to your lifestyle and needs.</p>
+                <button class="btn btn-secondary" data-toggle="modal" data-target="#service1Modal">View Details</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/constructing1.jpeg" alt="Service 2" class="img-fluid">
+                <h5>Commercial Construction</h5>
+                <p>Our team is equipped to handle commercial projects of any size, ensuring timely completion and quality.</p>
+                <button class="btn btn-secondary" data-toggle="modal" data-target="#service2Modal">View Details</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/renovation.jpeg" alt="Service 3" class="img-fluid">
+                <h5>Renovation Services</h5>
+                <p>Transform your space with our expert renovation services, tailored to enhance functionality and style.</p>
+                <button class="btn btn-secondary" data-toggle="modal" data-target="#service3Modal">View Details</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/projectmanagement.jpeg" alt="Service 4" class="img-fluid">
+                <h5>Project Management</h5>
+                <p>Our project management team ensures that every phase of construction is executed smoothly and efficiently.</p>
+                <button class="btn btn-secondary" data-toggle="modal" data-target="#service4Modal">View Details</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="floorplans">
+    <h2>Floor Plans</h2>
+    <p>Explore our well-designed floor plans that cater to various needs and preferences.</p>
+
+    <div class="grid-container">
+        <div class="item">
+            <img src="images/2bhk.jpeg" alt="2BHK Floor Plan">
+            <h5>2BHK Apartment</h5>
+            <p>Modern design with spacious living areas.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#floorPlan1Modal">More Information</button>
+        </div>
+        <div class="item">
+            <img src="images/3bhk.jpeg" alt="3BHK Floor Plan">
+            <h5>3BHK Apartment</h5>
+            <p>Perfect for families, featuring a balcony.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#floorPlan2Modal">More Information</button>
+        </div>
+        <div class="item">
+            <img src="images/Duplex.jpeg" alt="Duplex Floor Plan">
+            <h5>Duplex Home</h5>
+            <p>Spacious duplex with modern amenities.</p>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#floorPlan3Modal">More Information</button>
+        </div>
+    </div>
+</div>
+
+<footer class="py-4 text-center">
+    <div class="row mb-4">
+        <div class="col-md-12 text-center">
+            <h5>Follow Us</h5>
+            <a href="#" target="_blank">Facebook</a> |
+            <a href="#" target="_blank">Twitter</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </div>
+    <p>&copy; 2024 VNR Constructions. All Rights Reserved.</p>
+</footer>
+
+
+<div class="modal fade" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">Residential Complex</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This residential complex features modern architecture and eco-friendly materials, designed for luxury living.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project2ModalLabel">Office Building</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This office building is designed for productivity with collaborative spaces and modern amenities.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="project3Modal" tabindex="-1" role="dialog" aria-labelledby="project3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project3ModalLabel">Shopping Mall</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This shopping mall offers a unique blend of shopping and entertainment, with a focus on community engagement.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="project4Modal" tabindex="-1" role="dialog" aria-labelledby="project4ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project4ModalLabel">Hospital Facility</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This hospital facility is equipped with the latest medical technology, providing top-tier healthcare services.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="service1Modal" tabindex="-1" role="dialog" aria-labelledby="service1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="service1ModalLabel">Residential Construction</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Our residential construction services include design, building, and renovation, ensuring your home is built to your specifications.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="service2Modal" tabindex="-1" role="dialog" aria-labelledby="service2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="service2ModalLabel">Commercial Construction</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>We specialize in large-scale commercial projects, ensuring quality and compliance with industry standards.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="service3Modal" tabindex="-1" role="dialog" aria-labelledby="service3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="service3ModalLabel">Renovation Services</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Our renovation services will help you transform your existing spaces into modern, functional environments.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="service4Modal" tabindex="-1" role="dialog" aria-labelledby="service4ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="service4ModalLabel">Project Management</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Our project management team ensures every project runs smoothly, on time, and within budget.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="floorPlan1Modal" tabindex="-1" role="dialog" aria-labelledby="floorPlan1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="floorPlan1ModalLabel">2BHK Apartment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This floor plan features a spacious living area, two bedrooms, and modern amenities perfect for a small family.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="floorPlan2Modal" tabindex="-1" role="dialog" aria-labelledby="floorPlan2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="floorPlan2ModalLabel">3BHK Apartment</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This spacious 3BHK apartment includes a master bedroom with an attached bathroom and a balcony.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="floorPlan3Modal" tabindex="-1" role="dialog" aria-labelledby="floorPlan3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="floorPlan3ModalLabel">Duplex Home</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This duplex home features a unique design with two levels and ample living space for families.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

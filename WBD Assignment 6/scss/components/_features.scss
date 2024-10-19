@@ -1,0 +1,14 @@
+
+@import '../features/variables'; 
+@import '../features/mixins';    
+
+
+
+.alert {
+    margin: 10px 0; 
+    font-size: 1.2rem; 
+    background: $secondary-color; 
+    color: $white; 
+    padding: 10px; 
+    border-radius: 5px; 
+}

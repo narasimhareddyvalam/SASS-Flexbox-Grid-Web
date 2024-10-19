@@ -1,0 +1,27 @@
+
+@import '../features/variables'; 
+
+header {
+    background: $primary-color; 
+    color: $white; 
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background: lighten($primary-color, 10%); 
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+
+    .navbar-brand {
+        color: $secondary-color; 
+        font-size: 24px;
+        font-weight: bold; 
+
+        &:hover {
+            color: lighten($secondary-color, 10%); 
+        }
+    }
+}
